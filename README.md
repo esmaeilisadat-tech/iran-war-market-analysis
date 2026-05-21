@@ -22,38 +22,20 @@ More specifically, this project compares:
 
 ## Project Structure
 
-```text
-iran-war-market-analysis/
-│
-├── data/
-│   └── processed/
-│       ├── eurusd_clean.csv
-│       ├── gold_clean.csv
-│       ├── oil_clean.csv
-│       ├── war_master_dataset.csv
-│       ├── merged_market_war_with_indicators.csv
-│       ├── normal_vs_war_groupby_summary.csv
-│       ├── war_category_groupby_summary.csv
-│       ├── monthly_groupby_return_summary.csv
-│       └── indicator_groupby_performance.csv
-│
-├── notebooks/
-│   └── iran_war_market_analysis_corrected.ipynb
-│
-├── outputs/
-│   └── figures/
-│       ├── oil_war_events.png
-│       ├── gold_war_events.png
-│       ├── eurusd_war_events.png
-│       ├── oil_ma_ema_indicator_chart.png
-│       ├── gold_ma_ema_indicator_chart.png
-│       ├── eurusd_ma_ema_indicator_chart.png
-│       ├── ema_signal_groupby_performance.png
-│       └── avg_5d_change_after_events.png
-│
-├── README.md
-└── requirements.txt
-```
+- `data/external/`: original market and war-event CSV files
+- `data/processed/`: cleaned and merged analysis CSV files
+- `notebooks/`: Jupyter notebooks for cleaning and analysis
+- `reports/figures/`: generated charts
+- `reports/present/`: presentation files
+- `README.md`: project description
+- `requirements.txt`: Python dependencies
+
+## View the Notebooks
+
+If GitHub has trouble previewing a notebook, open it in Google Colab instead:
+
+- [Open analysis notebook in Colab](https://colab.research.google.com/github/esmaeilisadat-tech/iran-war-market-analysis/blob/main/notebooks/iran_war_market_analysis_corrected.ipynb)
+- [Open data cleaning notebook in Colab](https://colab.research.google.com/github/esmaeilisadat-tech/iran-war-market-analysis/blob/main/notebooks/data%20cleaning.ipynb)
 
 ## Data
 
@@ -79,9 +61,7 @@ This project uses:
 
 Install the required libraries with:
 
-```bash
-pip install -r requirements.txt
-```
+`pip install -r requirements.txt`
 
 ## Methodology
 
@@ -104,21 +84,13 @@ The project follows a simple Data Science workflow:
 
 Daily return is calculated using percentage change:
 
-```python
-df["oil_return"] = df["oil_close"].pct_change() * 100
-```
+`df["oil_return"] = df["oil_close"].pct_change() * 100`
 
 ### Groupby Analysis
 
 `groupby` is used to compare average market returns between normal days and war-event days:
 
-```python
-merged.groupby("war_event")[[
-    "eurusd_return",
-    "gold_return",
-    "oil_return"
-]].mean()
-```
+`merged.groupby("war_event")[["eurusd_return", "gold_return", "oil_return"]].mean()`
 
 This is an important part of the project because it shows how data can be grouped and analyzed by category.
 
@@ -131,10 +103,9 @@ The project also calculates technical indicators:
 
 Example:
 
-```python
-merged["oil_ma_20"] = merged["oil_close"].rolling(window=20).mean()
-merged["oil_ema_20"] = merged["oil_close"].ewm(span=20, adjust=False).mean()
-```
+`merged["oil_ma_20"] = merged["oil_close"].rolling(window=20).mean()`
+
+`merged["oil_ema_20"] = merged["oil_close"].ewm(span=20, adjust=False).mean()`
 
 MA is smoother and slower. EMA reacts faster to recent market changes.
 
@@ -169,21 +140,15 @@ Saved in `outputs/figures`:
 
 1. Open the project folder:
 
-```text
-C:\git-projects\my-first-project\iran-war-market-analysis
-```
+`C:\git-projects\my-first-project\iran-war-market-analysis`
 
 2. Open the notebook:
 
-```text
-notebooks/iran_war_market_analysis_corrected.ipynb
-```
+`notebooks/iran_war_market_analysis_corrected.ipynb`
 
 3. Make sure the main path inside the notebook is correct:
 
-```python
-PROJECT_ROOT = Path(r"C:\git-projects\my-first-project\iran-war-market-analysis")
-```
+`PROJECT_ROOT = Path(r"C:\git-projects\my-first-project\iran-war-market-analysis")`
 
 4. Run all cells from top to bottom.
 
