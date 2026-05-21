@@ -1,0 +1,27 @@
+date,side,aircraft_type,quantity,loss_type,location,notes
+2026-02-28,Iran,Elbit Hermes 900 Drone,1,Shot down,Khamaneh East Azerbaijan,Israeli drone also downed
+2026-03-01,Iran,Northrop F-5,1,Destroyed on ground,Tabriz Shahid Madani Airport,Israeli airstrike
+2026-03-01,Iran,McDonnell Douglas F-4 Phantom II,1,Destroyed on ground,Tabriz Shahid Madani Airport,Israeli airstrike
+2026-03-01,Iran,Sukhoi Su-24,2,Shot down,Near Al Udeid Air Base,Shot down by Qatari F-15EX
+2026-03-01,US,McDonnell Douglas F-15E Strike Eagle,3,Shot down,Kuwait,Friendly fire by Kuwaiti air defenses
+2026-03-02,Iran,Sukhoi Su-22,2,Destroyed on ground,Shiraz Shahid Dastgheib Airport,USAF precision strike; CENTCOM released footage
+2026-03-02,Iran,Lockheed C-130H Hercules,2,Destroyed on ground,Shiraz Shahid Dastgheib Airport,Confirmed by satellite imagery
+2026-03-02,Iran,Ilyushin Il-76,1,Destroyed on ground,Shiraz Shahid Dastgheib Airport,Satellite imagery confirmed
+2026-03-12,US,Boeing KC-135 Stratotanker,1,Crashed,Western Iraq near Turaibil,Mid-air collision; 6 crew killed; non-hostile
+2026-03-19,US,General Atomics MQ-9 Reaper,12,Shot down / destroyed,Various,9 shot down by Iran; 1 struck Jordan airfield; 2 crashed
+2026-03-20,US,General Atomics MQ-9 Reaper,1,Shot down,Bushehr province Iran,Wreckage published by Iranian media
+2026-03-21,US,Sikorsky UH-60 Black Hawk,1,Crashed at sea,Qatar waters,Technical failure; Qatari Ministry of Defense confirmed
+2026-03-27,US,Boeing E-3 Sentry AWACS,1,Destroyed,Prince Sultan Air Base Saudi Arabia,Iranian missile and drone strike
+2026-03-27,US,Boeing KC-135 Stratotanker,4+,Damaged,Prince Sultan Air Base Saudi Arabia,Multiple refuelers damaged; at least 15 US soldiers injured
+2026-04-01,Iran,Lockheed C-130H Hercules,2,Destroyed on ground,Tehran Mehrabad Airport,Israeli airstrike
+2026-04-01,US,General Atomics MQ-9 Reaper,8,Shot down / destroyed,Various Middle East,Total MQ-9 losses reach 24 by this date
+2026-04-01,UAE,AEW&C GlobalEye,1,Destroyed,Al-Dhafra Air Base UAE,Iranian drone strike on hangar
+2026-04-03,US,McDonnell Douglas F-15E Strike Eagle,1,Shot down,Western Iran,Iranian air defense; both crew recovered
+2026-04-03,US,Sikorsky UH-60 Black Hawk,1,Damaged,Strait of Hormuz area,Hit by Iranian fire during F-15 CSAR mission
+2026-04-03,US,Sikorsky HH-60 Pave Hawk,1,Damaged,Strait of Hormuz area,Hit by Iranian fire during F-15 CSAR mission
+2026-04-03,US,Fairchild Republic A-10 Thunderbolt II,1,Shot down,Strait of Hormuz,Iranian fire; pilot ejected and rescued
+2026-04-03,US,Boeing CH-47 Chinook,1,Destroyed on ground,Kuwait,Iranian drone attack
+2026-04-03,US,Lockheed MC-130J Commando II,2,Destroyed by own forces,Iran,Destroyed after becoming stuck at makeshift landing site
+2026-04-06,Iran,Lockheed C-130H Hercules,2,Destroyed on ground,Tehran Mehrabad Airport,Israeli airstrike
+2026-04-06,US,General Atomics MQ-9 Reaper,1,Shot down,Qeshm Island Iran,Iranian Navy; shoot-down footage published
+2026-04-09,US,Northrop Grumman MQ-4C Triton,1,Crashed,Persian Gulf,Loss of communication; $238M drone

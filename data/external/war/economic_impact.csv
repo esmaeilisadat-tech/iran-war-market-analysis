@@ -1,0 +1,26 @@
+date,metric,value,unit,notes
+2026-02-28,Brent Crude Price,72.48,USD/barrel,Pre-war price on Feb 28
+2026-03-01,Brent Crude Price,80.00,USD/barrel,+10-13% surge within first 48 hours
+2026-03-04,Strait of Hormuz Status,Closed,Status,Iran declares Strait closed
+2026-03-04,Strait of Hormuz Throughput,20000000,barrels/day,Pre-closure normal throughput
+2026-03-06,US War Cost,11300000000,USD,Pentagon estimate for first 6 days (Sen. Coons)
+2026-03-06,US War Cost Daily Rate,1000000000,USD/day,Pentagon briefing to Congress
+2026-03-08,Brent Crude Price,100.00,USD/barrel,First time above $100 in 4 years
+2026-03-10,Gulf Oil Production Drop,6700000,barrels/day,Collective drop Kuwait Iraq Saudi Arabia UAE
+2026-03-12,Gulf Oil Production Drop,10000000,barrels/day,At least 10M bpd lost by Mar 12
+2026-03-12,Gulf Food Import Disruption,70,percent,70% of Gulf region food imports disrupted
+2026-03-12,Gulf Food Price Spike,80,percent,40-120% average spike in consumer food prices
+2026-03-15,Global Gulf Oil Production,6700000,barrels/day,Remaining throughput via Strait
+2026-03-28,Iran Daily Economic Loss,435000000,USD/day,Loss of import/export capacity per analyst estimate
+2026-04-02,Brent Crude Price (Peak),128.00,USD/barrel,Intraday peak; 55% monthly gain in March (largest in history)
+2026-04-08,Brent Crude Price,93.00,USD/barrel,Drop on ceasefire news
+2026-04-13,Strait of Hormuz Throughput,3800000,barrels/day,81% collapse from pre-war 20M bpd
+2026-04-13,US Total War Cost Estimate (Low),40000000000,USD,Penn Wharton direct cost low estimate
+2026-04-13,US Total War Cost Estimate (High),95000000000,USD,Penn Wharton direct cost high estimate
+2026-04-13,US Total Economic Impact (High),210000000000,USD,Penn Wharton full economic impact estimate
+2026-04-13,Global GDP Impact,2.9,percentage points annualized,Dallas Fed estimate for Q2 2026 if Strait stays closed
+2026-04-13,Global Inflation Impact,0.8,percentage points,Analyst forecast for persistent disruption
+2026-04-13,US Gas Price Increase,1.16,USD/gallon,Increase since start of war
+2026-04-13,Jet Fuel Price Increase,95,percent,Increase since war began
+2026-04-17,Brent Crude Price,93.00,USD/barrel,Post-ceasefire; still elevated
+2026-04-17,Strait of Hormuz Throughput,3800000,barrels/day,Still 81% below normal as of Apr 17
